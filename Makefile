@@ -1,4 +1,4 @@
-#
+# test
 # (C) Copyright 2000-2012
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.
 #
