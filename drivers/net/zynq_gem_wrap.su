@@ -1,0 +1,13 @@
+zynq_gem_wrap.c:138:13:Out32	0	static
+zynq_gem_wrap.c:405:6:Xgmac_halt	0	static
+zynq_gem_wrap.c:518:12:Xgmac_write_hwaddr	8	static
+zynq_gem_wrap.c:410:5:Xgmac_send	32	static
+zynq_gem_wrap.c:74:12:1	8	static
+zynq_gem_wrap.c:91:12:Xgmac_mii_write	24	static
+zynq_gem_wrap.c:82:12:Xgmac_mii_read	24	static
+zynq_gem_wrap.c:101:12:3	24	static
+zynq_gem_wrap.c:493:5:Xgmac_rx	24	static
+zynq_gem_wrap.c:111:13:9	24	static
+zynq_gem_wrap.c:235:5:Xgmac_init	16	static
+zynq_gem_wrap.c:146:5:Xgmac_one_time_init	40	static
+zynq_gem_wrap.c:562:5:zynq_gem_initialize_old	32	static

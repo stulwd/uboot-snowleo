@@ -1,0 +1,7 @@
+cmd_net.c:277:5:do_ping	8	static
+bootstage.h:252:21:bootstage_error	8	static
+bootstage.h:246:21:bootstage_mark	8	static
+cmd_net.c:195:12:netboot_common	64	static
+cmd_net.c:120:5:do_nfs	0	static
+cmd_net.c:44:5:do_tftpb	0	static
+cmd_net.c:33:5:do_bootp	0	static

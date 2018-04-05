@@ -1,0 +1,3 @@
+xbasic_types.c:86:6:XAssert	8	static
+xbasic_types.c:113:6:XAssertSetCallback	0	static
+xbasic_types.c:133:6:XNullHandler	0	static

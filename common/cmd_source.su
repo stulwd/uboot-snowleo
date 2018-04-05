@@ -1,0 +1,3 @@
+swab.h:112:48:__fswab32	0	static
+cmd_source.c:44:1:source	32	static
+cmd_source.c:155:1:do_source	16	static

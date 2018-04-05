@@ -1,0 +1,2 @@
+cpu.c:26:13:lowlevel_init	0	static
+cpu.c:28:13:reset_cpu	0	static

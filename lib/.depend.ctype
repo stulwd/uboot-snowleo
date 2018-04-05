@@ -1,0 +1,1 @@
+ctype.o: ctype.c /opt/uboot_snowleo/uboot-snowleo/include/linux/ctype.h

@@ -1,0 +1,12 @@
+system.h:64:28:get_cr	0	static
+system.h:71:20:set_cr	0	static
+cache-cp15.c:43:13:cp_delay	8	static
+cache-cp15.c:101:13:cache_enable	24	static
+cache-cp15.c:114:13:cache_disable	16	static
+cache-cp15.c:37:6:__arm_init_before_mmu	0	static
+cache-cp15.c:149:6:icache_enable	0	static
+cache-cp15.c:154:6:icache_disable	0	static
+cache-cp15.c:159:5:icache_status	8	static
+cache-cp15.c:181:6:dcache_enable	0	static
+cache-cp15.c:186:6:dcache_disable	0	static
+cache-cp15.c:191:5:dcache_status	8	static

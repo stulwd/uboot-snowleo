@@ -1,0 +1,9 @@
+memsize.o: memsize.c /opt/uboot_snowleo/uboot-snowleo/include/config.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/config_cmd_defaults.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/config_defaults.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/configs/zynq_snowleo.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/configs/zynq_common.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/config_cmd_default.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/asm/config.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/config_fallbacks.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/config_uncmd_spl.h

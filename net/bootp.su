@@ -1,0 +1,9 @@
+swab.h:99:48:__fswab16	0	static
+swab.h:112:48:__fswab32	0	static
+bootp.c:122:12:truncate_sz	8	static
+net.h:614:20:NetCopyIP	0	static
+net.h:599:21:NetReadLong	16	static
+bootp.c:288:1:BootpHandler	40	static
+net.h:608:20:2	16	static
+bootp.c:601:1:BootpRequest	48	static
+bootp.c:328:1:BootpTimeout	8	static

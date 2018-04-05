@@ -1,0 +1,7 @@
+crc16.o: crc16.c /opt/uboot_snowleo/uboot-snowleo/include/crc.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/config.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/posix_types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/stddef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/asm/posix_types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/asm/types.h

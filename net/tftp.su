@@ -1,0 +1,6 @@
+swab.h:99:48:__fswab16	0	static
+net.h:520:20:net_set_state	0	static
+tftp.c:307:1:TftpSend	24	static
+tftp.c:439:1:TftpHandler	32	static
+tftp.c:668:1:TftpTimeout	16	static
+tftp.c:681:6:TftpStart	24	static
