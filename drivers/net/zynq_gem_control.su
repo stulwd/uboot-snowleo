@@ -1,0 +1,15 @@
+zynq_gem_control.c:51:5:XEmacPss_SetMacAddress	24	static
+zynq_gem_control.c:104:6:XEmacPss_GetMacAddress	24	static
+zynq_gem_control.c:190:5:XEmacPss_SetHash	24	static
+zynq_gem_control.c:244:6:XEmacPss_ClearHash	16	static
+zynq_gem_control.c:267:6:XEmacPss_GetHash	16	static
+zynq_gem_control.c:298:5:XEmacPss_SetTypeIdCheck	16	static
+zynq_gem_control.c:337:5:XEmacPss_SetOptions	24	static
+zynq_gem_control.c:472:5:XEmacPss_ClearOptions	24	static
+zynq_gem_control.c:604:5:XEmacPss_GetOptions	16	static
+zynq_gem_control.c:624:5:XEmacPss_SendPausePacket	16	static
+zynq_gem_control.c:658:5:XEmacPss_GetOperatingSpeed	16	static
+zynq_gem_control.c:693:6:XEmacPss_SetOperatingSpeed	16	static
+zynq_gem_control.c:759:6:XEmacPss_SetMdioDivisor	16	static
+zynq_gem_control.c:817:5:XEmacPss_PhyRead	32	static
+zynq_gem_control.c:894:5:XEmacPss_PhyWrite	32	static

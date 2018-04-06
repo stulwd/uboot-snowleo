@@ -1,0 +1,10 @@
+memsize.o: memsize.c \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config_cmd_defaults.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config_defaults.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/configs/zynq_snowleo.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/configs/zynq_common.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config_cmd_default.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/asm/config.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config_fallbacks.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/config_uncmd_spl.h

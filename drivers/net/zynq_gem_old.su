@@ -1,0 +1,5 @@
+zynq_gem_old.c:359:6:XEmacPss_StubHandler	8	static
+zynq_gem_old.c:111:6:XEmacPss_Start	16	static
+zynq_gem_old.c:202:6:XEmacPss_Stop	16	static
+zynq_gem_old.c:258:6:XEmacPss_Reset	24	static
+zynq_gem_old.c:60:5:XEmacPss_CfgInitialize	8	static

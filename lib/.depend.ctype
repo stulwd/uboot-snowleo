@@ -1,0 +1,2 @@
+ctype.o: ctype.c \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/linux/ctype.h

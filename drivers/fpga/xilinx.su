@@ -1,0 +1,4 @@
+xilinx.c:278:12:xilinx_validate	8	static
+xilinx.c:52:5:xilinx_load	16	static
+xilinx.c:109:5:xilinx_dump	16	static
+xilinx.c:166:5:xilinx_info	16	static

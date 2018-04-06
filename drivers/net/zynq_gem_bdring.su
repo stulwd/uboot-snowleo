@@ -1,0 +1,9 @@
+zynq_gem_bdring.c:174:5:XEmacPss_BdRingCreate	24	static
+zynq_gem_bdring.c:278:5:XEmacPss_BdRingClone	24	static
+zynq_gem_bdring.c:399:5:XEmacPss_BdRingAlloc	0	static
+zynq_gem_bdring.c:478:5:XEmacPss_BdRingUnAlloc	8	static
+zynq_gem_bdring.c:520:5:XEmacPss_BdRingToHw	16	static
+zynq_gem_bdring.c:619:10:XEmacPss_BdRingFromHwTx	16	static
+zynq_gem_bdring.c:757:10:XEmacPss_BdRingFromHwRx	20	static
+zynq_gem_bdring.c:852:5:XEmacPss_BdRingFree	0	static
+zynq_gem_bdring.c:898:5:XEmacPss_BdRingCheck	12	static

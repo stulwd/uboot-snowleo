@@ -1,0 +1,10 @@
+zynq_mmc.c:31:13:sd_out32	0	static
+zynq_mmc.c:37:13:sd_out16	0	static
+zynq_mmc.c:43:13:sd_out8	0	static
+zynq_mmc.c:50:12:sd_in32	0	static
+zynq_mmc.c:56:12:sd_in16	0	static
+zynq_mmc.c:62:11:sd_in8	0	static
+zynq_mmc.c:435:12:zynq_sdh_init	16	static
+zynq_mmc.c:382:13:zynq_sdh_set_ios	24	static
+zynq_mmc.c:230:12:zynq_sdh_request	32	static
+zynq_mmc.c:442:5:zynq_mmc_init	8	static

@@ -1,0 +1,9 @@
+part_dos.c:47:19:le32_to_int	0	static
+part_dos.c:56:19:is_extended	0	static
+part_dos.c:79:12:test_block_type	8	static
+part_dos.c:63:19:0	0	static
+part_dos.c:108:13:print_partition_extended	80	dynamic
+part_dos.c:167:12:1	64	dynamic
+part_dos.c:93:5:test_part_dos	24	dynamic
+part_dos.c:262:6:print_part_dos	8	static
+part_dos.c:268:5:get_partition_info_dos	16	static

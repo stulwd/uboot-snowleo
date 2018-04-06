@@ -1,0 +1,445 @@
+image.o: /opt/7010/uboot-snowleo/u-boot-v3best/common/image.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/mkimage.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/os_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /usr/include/i386-linux-gnu/sys/stat.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/sha1.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/md5.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/image.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt_support.h
+crc32.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/crc32.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/crc.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/zlib.h
+md5.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/md5.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/md5.h
+sha1.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/sha1.c \
+ /usr/include/stdc-predef.h /usr/include/string.h /usr/include/features.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/watchdog.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/sha1.h
+gen_eth_addr.o: \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/gen_eth_addr.c \
+ /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h \
+ /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+ /usr/include/xlocale.h
+img2srec.o: /opt/7010/uboot-snowleo/u-boot-v3best/tools/img2srec.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/os_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdbool.h /usr/include/ctype.h \
+ /usr/include/elf.h /usr/include/i386-linux-gnu/bits/auxv.h \
+ /usr/include/unistd.h /usr/include/i386-linux-gnu/bits/posix_opt.h \
+ /usr/include/i386-linux-gnu/bits/environments.h \
+ /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h
+fdt.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h
+fdt_ro.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_ro.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h
+fdt_rw.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_rw.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_strerror.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h
+fdt_wip.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_wip.c \
+ /usr/include/stdc-predef.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
+ /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
+ /usr/include/i386-linux-gnu/bits/wordsize.h \
+ /usr/include/i386-linux-gnu/gnu/stubs.h \
+ /usr/include/i386-linux-gnu/gnu/stubs-32.h \
+ /usr/include/i386-linux-gnu/bits/wchar.h /usr/include/errno.h \
+ /usr/include/i386-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/i386-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h /usr/include/stdlib.h \
+ /usr/include/i386-linux-gnu/bits/waitflags.h \
+ /usr/include/i386-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/i386-linux-gnu/bits/endian.h \
+ /usr/include/i386-linux-gnu/bits/byteswap.h \
+ /usr/include/i386-linux-gnu/bits/types.h \
+ /usr/include/i386-linux-gnu/bits/typesizes.h \
+ /usr/include/i386-linux-gnu/bits/byteswap-16.h \
+ /usr/include/i386-linux-gnu/sys/types.h /usr/include/time.h \
+ /usr/include/i386-linux-gnu/sys/select.h \
+ /usr/include/i386-linux-gnu/bits/select.h \
+ /usr/include/i386-linux-gnu/bits/sigset.h \
+ /usr/include/i386-linux-gnu/bits/time.h \
+ /usr/include/i386-linux-gnu/sys/sysmacros.h \
+ /usr/include/i386-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/i386-linux-gnu/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i686-linux-gnu/5/include/stdarg.h \
+ /usr/include/i386-linux-gnu/bits/stdio_lim.h \
+ /usr/include/i386-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
+ /usr/include/xlocale.h /usr/include/i386-linux-gnu/sys/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman.h \
+ /usr/include/i386-linux-gnu/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl.h \
+ /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
+ /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h

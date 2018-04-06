@@ -1,0 +1,10 @@
+swab.h:99:48:__fswab16	0	static
+net.h:614:20:NetCopyIP	0	static
+net.h:590:24:NetReadIP	16	static
+net.h:608:20:NetWriteIP	16	static
+net.h:529:20:NetSendPacket	0	static
+arp.c:40:6:ArpInit	0	static
+arp.c:51:6:arp_raw_request	32	static
+arp.c:81:6:ArpRequest	16	static
+arp.c:98:6:ArpTimeoutCheck	8	static
+arp.c:122:6:ArpReceive	40	static
