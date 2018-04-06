@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 image.o: /opt/7010/uboot-snowleo/u-boot-v3best/common/image.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/mkimage.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/os_support.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+image.o: /opt/uboot_snowleo/uboot-snowleo/common/image.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/mkimage.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/os_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -42,6 +50,7 @@ image.o: /opt/7010/uboot-snowleo/u-boot-v3best/common/image.c \
  /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/include/sha1.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
@@ -57,6 +66,23 @@ image.o: /opt/7010/uboot-snowleo/u-boot-v3best/common/image.c \
 crc32.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/crc32.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/include/sha1.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/u-boot/md5.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/image.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt_support.h
+crc32.o: /opt/uboot_snowleo/uboot-snowleo/lib/crc32.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -92,11 +118,19 @@ crc32.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/crc32.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/crc.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/zlib.h
 md5.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/md5.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/include/u-boot/crc.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/u-boot/zlib.h
+md5.o: /opt/uboot_snowleo/uboot-snowleo/lib/md5.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -132,18 +166,29 @@ md5.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/md5.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/include/u-boot/md5.h
 sha1.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/sha1.c \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/include/u-boot/md5.h
+sha1.o: /opt/uboot_snowleo/uboot-snowleo/lib/sha1.c \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/include/stdc-predef.h /usr/include/string.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
  /usr/include/i386-linux-gnu/gnu/stubs.h \
  /usr/include/i386-linux-gnu/gnu/stubs-32.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h /usr/include/xlocale.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/include/watchdog.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/sha1.h
 gen_eth_addr.o: \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/gen_eth_addr.c \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/include/watchdog.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/sha1.h
+gen_eth_addr.o: /opt/uboot_snowleo/uboot-snowleo/tools/gen_eth_addr.c \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
  /usr/include/i386-linux-gnu/sys/cdefs.h \
  /usr/include/i386-linux-gnu/bits/wordsize.h \
@@ -173,10 +218,17 @@ gen_eth_addr.o: \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h \
  /usr/include/xlocale.h
+<<<<<<< HEAD
 img2srec.o: /opt/7010/uboot-snowleo/u-boot-v3best/tools/img2srec.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/os_support.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+img2srec.o: /opt/uboot_snowleo/uboot-snowleo/tools/img2srec.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/os_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -217,10 +269,17 @@ img2srec.o: /opt/7010/uboot-snowleo/u-boot-v3best/tools/img2srec.c \
  /usr/include/unistd.h /usr/include/i386-linux-gnu/bits/posix_opt.h \
  /usr/include/i386-linux-gnu/bits/environments.h \
  /usr/include/i386-linux-gnu/bits/confname.h /usr/include/getopt.h
+<<<<<<< HEAD
 fdt.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+fdt.o: /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/fdt.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -256,6 +315,7 @@ fdt.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
@@ -266,6 +326,18 @@ fdt_ro.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_ro.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/libfdt_internal.h
+fdt_ro.o: /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/fdt_ro.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -301,6 +373,7 @@ fdt_ro.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_ro.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
@@ -311,6 +384,18 @@ fdt_rw.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_rw.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/libfdt_internal.h
+fdt_rw.o: /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/fdt_rw.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -346,6 +431,7 @@ fdt_rw.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_rw.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
@@ -357,6 +443,19 @@ fdt_strerror.o: \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/fdt_strerror.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -392,6 +491,7 @@ fdt_strerror.o: \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
@@ -402,6 +502,18 @@ fdt_wip.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_wip.c \
  /usr/include/stdc-predef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/libfdt_env.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/compiler.h \
+=======
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/libfdt_internal.h
+fdt_wip.o: /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/fdt_wip.c \
+ /usr/include/stdc-predef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/libfdt_env.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/compiler.h \
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
  /usr/lib/gcc/i686-linux-gnu/5/include/stddef.h \
  /usr/lib/gcc/i686-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/i386-linux-gnu/sys/cdefs.h \
@@ -437,9 +549,18 @@ fdt_wip.o: /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/fdt_wip.c \
  /usr/include/i386-linux-gnu/bits/fcntl.h \
  /usr/include/i386-linux-gnu/bits/fcntl-linux.h \
  /usr/include/i386-linux-gnu/bits/stat.h /usr/include/byteswap.h \
+<<<<<<< HEAD
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/fdt_host.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/libfdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/fdt.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/tools/../include/fdt_support.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/lib/libfdt/libfdt_internal.h
+=======
+ /opt/uboot_snowleo/uboot-snowleo/tools/fdt_host.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/libfdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/fdt.h \
+ /opt/uboot_snowleo/uboot-snowleo/tools/../include/fdt_support.h \
+ /opt/uboot_snowleo/uboot-snowleo/lib/libfdt/libfdt_internal.h
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d

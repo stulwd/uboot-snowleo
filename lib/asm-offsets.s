@@ -44,9 +44,15 @@ main:
 	.size	main, .-main
 	.text
 .Letext0:
+<<<<<<< HEAD
 	.file 2 "/opt/7010/uboot-snowleo/u-boot-v3best/include/asm/u-boot.h"
 	.file 3 "/opt/7010/uboot-snowleo/u-boot-v3best/include/linux/types.h"
 	.file 4 "/opt/7010/uboot-snowleo/u-boot-v3best/include/net.h"
+=======
+	.file 2 "/opt/uboot_snowleo/uboot-snowleo/include/asm/u-boot.h"
+	.file 3 "/opt/uboot_snowleo/uboot-snowleo/include/linux/types.h"
+	.file 4 "/opt/uboot_snowleo/uboot-snowleo/include/net.h"
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
 	.section	.debug_info,"",%progbits
 .Ldebug_info0:
 	.4byte	0x2cc
@@ -717,8 +723,11 @@ main:
 	.ascii	"enetaddr\000"
 .LASF25:
 	.ascii	"iobase\000"
+<<<<<<< HEAD
 .LASF43:
 	.ascii	"/opt/7010/uboot-snowleo/u-boot-v3best\000"
+=======
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
 .LASF38:
 	.ascii	"NETLOOP_FAIL\000"
 .LASF1:
@@ -751,6 +760,11 @@ main:
 	.ascii	"recv\000"
 .LASF6:
 	.ascii	"long long int\000"
+<<<<<<< HEAD
+=======
+.LASF43:
+	.ascii	"/opt/uboot_snowleo/uboot-snowleo\000"
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
 .LASF36:
 	.ascii	"NETLOOP_RESTART\000"
 .LASF33:

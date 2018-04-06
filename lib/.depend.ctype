@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 ctype.o: ctype.c \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/linux/ctype.h
+=======
+ctype.o: ctype.c /opt/uboot_snowleo/uboot-snowleo/include/linux/ctype.h
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d

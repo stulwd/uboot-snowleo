@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 div64.o: div64.c \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/linux/types.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/linux/config.h \
@@ -5,3 +6,11 @@ div64.o: div64.c \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/linux/stddef.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/asm/posix_types.h \
  /opt/7010/uboot-snowleo/u-boot-v3best/include/asm/types.h
+=======
+div64.o: div64.c /opt/uboot_snowleo/uboot-snowleo/include/linux/types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/config.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/posix_types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/linux/stddef.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/asm/posix_types.h \
+ /opt/uboot_snowleo/uboot-snowleo/include/asm/types.h
+>>>>>>> feaad1155139b07dea07d6c7ac3e17d1ec8ba14d
